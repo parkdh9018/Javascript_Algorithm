@@ -39,10 +39,10 @@ function solution(a, edges) {
 
     }
 
-    answer = a.reduce((acc,v) => acc+Math.abs(v),0) - [...map].reduce((acc,v) => {
-        if(v[1].length > acc)
+    // answer = a.reduce((acc,v) => acc+Math.abs(v),0) - [...map].reduce((acc,v) => {
+    //     if(v[1].length > acc)
 
-    })
+    // })
 
     console.log(answer)
 
